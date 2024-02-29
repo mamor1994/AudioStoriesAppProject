@@ -16,9 +16,10 @@ public class WelcomePage extends AppCompatActivity {
         int delay = 4000;
 
         new Handler().postDelayed(() -> {
-            // Intent intent = new Intent(WelcomePage.this, MenuPage.class);
-            // startActivity(intent);
-            finish();
+             Intent intent = new Intent(WelcomePage.this, MenuPage.class);
+             startActivity(intent);
+             finish();
         }, delay);
     }
+
 }
