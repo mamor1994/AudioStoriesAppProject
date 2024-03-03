@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MenuPage">
 
+    <Button
+        android:id="@+id/statistics"
+        android:layout_width="223dp"
+        android:layout_height="75dp"
+        android:onClick="goFavorites"
+        android:text="Favorites"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619" />
+
     <TextView
         android:id="@+id/textViewStories"
         android:layout_width="wrap_content"

@@ -18,5 +18,9 @@ public class MenuPage extends AppCompatActivity {
         Intent intent = new Intent(this, ViewStoriesPage.class);
         startActivity(intent);
     }
+    public void goFavorites(View view){
+        Intent intent = new Intent(this, ViewStoriesPage.class);
+        startActivity(intent);
+    }
 
 }
