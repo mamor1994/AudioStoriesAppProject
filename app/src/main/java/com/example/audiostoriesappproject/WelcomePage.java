@@ -11,7 +11,7 @@ public class WelcomePage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.welcome_page);
+        setContentView(R.layout.activity_welcome_page);
 
         int delay = 4000;
 
