@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "198760691162",
+    "project_id": "audiostoriesappproject",
+    "storage_bucket": "audiostoriesappproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198760691162:android:ff57e3159b86489f7dfce3",
+        "android_client_info": {
+          "package_name": "com.example.audiostoriesappproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrW8SGH9_tuI2eYjEEiMV9bfxnvpe9B40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
