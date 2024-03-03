@@ -65,4 +65,8 @@ public class ViewStoriesPage extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onBackButtonClick(View view) {
+        onBackPressed();
+    }
+
 }

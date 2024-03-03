@@ -75,4 +75,9 @@ public class StoriesPlayerPage extends AppCompatActivity {
     public void playStory(View view){
         myTts.speak(description);
     }
+
+    public void onBackButtonClick(View view) {
+        onBackPressed();
+    }
+
 }

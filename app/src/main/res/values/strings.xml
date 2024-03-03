@@ -3,4 +3,15 @@
     <string name="loading">Loading</string>
     <string name="welcome_to_this_app">Welcome to this app</string>
     <string name="welcome">Welcome</string>
+    <string name="listen_to_the_story">Listen to the story</string>
+    <string name="favorites">Favorites</string>
+    <string name="menu">Menu</string>
+    <string name="see_the_stories">See the stories</string>
+    <string name="backbutton">backbutton</string>
+    <string name="aladin_and_the_magic_lamp">Aladin and the Magic Lamp</string>
+    <string name="rapunzel">Rapunzel</string>
+    <string name="snow_white">Snow White</string>
+    <string name="the_3_little_pigs">The 3 Little Pigs</string>
+    <string name="hansel_and_gretel">Hansel and Gretel</string>
+    <string name="select_a_story">Select a story</string>
 </resources>
