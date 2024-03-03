@@ -1,6 +1,10 @@
 {
   "project_info": {
     "project_number": "198760691162",
+<<<<<<< HEAD
+=======
+    "firebase_url": "https://audiostoriesappproject-default-rtdb.firebaseio.com",
+>>>>>>> origin/master
     "project_id": "audiostoriesappproject",
     "storage_bucket": "audiostoriesappproject.appspot.com"
   },
