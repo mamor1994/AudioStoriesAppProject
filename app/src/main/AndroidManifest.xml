@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AudioStoriesAppProject"
         tools:targetApi="31">
         <activity
+            android:name=".StoriesPlayerPage"
+            android:exported="false" />
+        <activity
             android:name=".FavoritesPage"
             android:exported="false" />
         <activity

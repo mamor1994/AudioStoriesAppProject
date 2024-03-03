@@ -19,7 +19,7 @@ public class MenuPage extends AppCompatActivity {
         startActivity(intent);
     }
     public void goFavorites(View view){
-        Intent intent = new Intent(this, ViewStoriesPage.class);
+        Intent intent = new Intent(this, FavoritesPage.class);
         startActivity(intent);
     }
 
