@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:animationCache="true"
-    android:background="#B08400"
+    android:background="@drawable/stories"
     tools:context=".ViewStoriesPage">
 
     <Button
@@ -95,12 +95,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.93" />
 
+    <Button
+        android:id="@+id/btn_jack"
+        android:layout_width="146dp"
+        android:layout_height="144dp"
+        android:foreground="@drawable/jack"
+        android:onClick="goJack"
+        android:text="@string/jack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
     <TextView
         android:id="@+id/text_hanselGretel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hansel_and_gretel"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,7 +128,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/aladin_and_the_magic_lamp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -128,7 +142,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/rapunzel"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -142,7 +156,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/snow_white"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -156,7 +170,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/the_3_little_pigs"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -170,7 +184,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/select_a_story"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="35sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -180,5 +194,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.04" />
 
+    <TextView
+        android:id="@+id/text_jack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jack"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.987" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

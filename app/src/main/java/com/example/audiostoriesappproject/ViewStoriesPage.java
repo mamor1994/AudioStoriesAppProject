@@ -27,9 +27,8 @@ public class ViewStoriesPage extends AppCompatActivity {
         reference4 =database.getReference("Story4");
         reference5 =database.getReference("Story5");
         storageReference = FirebaseStorage.getInstance().getReference();
-
-
     }
+
     public void goAladin(View view){
         Intent intent = new Intent(this, StoriesPlayerPage.class);
         startActivity(intent);
@@ -62,6 +61,13 @@ public class ViewStoriesPage extends AppCompatActivity {
     public void goHansel(View view){
         Intent intent = new Intent(this, StoriesPlayerPage.class);
         String story = "Hansel";
+        intent.putExtra("mykey1", story);
+        startActivity(intent);
+    }
+
+    public void goJack(View view){
+        Intent intent = new Intent(this, StoriesPlayerPage.class);
+        String story = "Jack";
         intent.putExtra("mykey1", story);
         startActivity(intent);
     }

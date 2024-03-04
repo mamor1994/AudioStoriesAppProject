@@ -27,8 +27,9 @@ import java.io.IOException;
 
 public class StoriesPlayerPage extends AppCompatActivity {
     TextView title;
+    TextView author;
+    TextView year;
     ImageView storyImage;
-    EditText story;
     FirebaseDatabase database;
     DatabaseReference reference;
     StorageReference storageReference;
@@ -40,9 +41,10 @@ public class StoriesPlayerPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stories_player_page);
         myTts = new MyTts(this);
-        title = findViewById(R.id.textView);
+        title = findViewById(R.id.textViewTitle);
+        author = findViewById(R.id.textViewAuthor);
+        year = findViewById(R.id.textViewYear);
         storyImage = findViewById(R.id.imageView);
-        story = findViewById(R.id.editTextTextMultiLine);
         database = FirebaseDatabase.getInstance();
         storageReference = FirebaseStorage.getInstance().getReference();
         String receivedText = getIntent().getStringExtra("mykey1");
@@ -53,8 +55,12 @@ public class StoriesPlayerPage extends AppCompatActivity {
                 int currentViews = snapshot.child("Views").getValue(Integer.class);
                 currentViews++;
                 reference.child("Views").setValue(currentViews);
-                title.setText(snapshot.child("Title").getValue().toString());
-                story.setText(snapshot.child("Description").getValue().toString());
+                String titleValue = snapshot.child("Title").getValue().toString();
+                title.setText("Title: " + titleValue);
+                String authorValue = snapshot.child("Author").getValue().toString();
+                author.setText("Author: " + authorValue);
+                String yearValue = snapshot.child("Year").getValue().toString();
+                year.setText("Year: " + yearValue);
                 description = snapshot.child("Description").getValue().toString();
                 String imageFile = snapshot.child("Image").getValue().toString();
                 try {
@@ -81,22 +87,12 @@ public class StoriesPlayerPage extends AppCompatActivity {
     public void playStory(View view) {
         myTts.speak(description);
     }
-}
-       // String mila =story.getText().toString();
-      //  myTts.speak(mila);
-      /*  try {
-            if (description != null && !description.isEmpty()) {
-                myTts.speak(description);
-            } else {
-                Toast.makeText(this, "Description is empty or null", Toast.LENGTH_SHORT).show();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-            Toast.makeText(this, "Error while playing story: " + e.getMessage(), Toast.LENGTH_SHORT).show();
-        }
-    }
 
     public void onBackButtonClick(View view) {
-        onBackPressed(); */
+        onBackPressed();
+    }
+
+}
+
 
 

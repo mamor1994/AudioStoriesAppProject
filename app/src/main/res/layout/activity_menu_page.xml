@@ -13,28 +13,29 @@
         android:layout_height="75dp"
         android:onClick="goFavorites"
         android:text="@string/favorites"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintHorizontal_bias="0.569"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722" />
+        app:layout_constraintVertical_bias="0.751" />
 
     <TextView
         android:id="@+id/textViewStories"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/menu"
-        android:textColor="@color/white"
-        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:textSize="60sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197" />
+        app:layout_constraintVertical_bias="0.275" />
 
     <Button
         android:id="@+id/btn_stories"
@@ -42,12 +43,14 @@
         android:layout_height="75dp"
         android:onClick="goViewStories"
         android:text="@string/see_the_stories"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintHorizontal_bias="0.569"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
