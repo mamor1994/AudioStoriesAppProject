@@ -28,6 +28,7 @@ public class ViewStoriesPage extends AppCompatActivity {
         reference5 =database.getReference("Story5");
         storageReference = FirebaseStorage.getInstance().getReference();
 
+
     }
     public void goAladin(View view){
         Intent intent = new Intent(this, StoriesPlayerPage.class);

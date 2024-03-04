@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AudioStoriesAppProject</string>
+    <string name="loading">Φορτώνει</string>
+    <string name="welcome_to_this_app">Καλωσήρθες στην εφαρμογή</string>
+    <string name="welcome">Καλωσήρθες</string>
+    <string name="listen_to_the_story">Άκουσε την ιστορία</string>
+    <string name="favorites">Αγαπημένα</string>
+    <string name="menu">Μενού</string>
+    <string name="see_the_stories">Δες τις ιστορίες</string>
+    <string name="backbutton">Επιστροφή</string>
+    <string name="aladin_and_the_magic_lamp">Αλαντίν και η μαγική λάμπα</string>
+    <string name="rapunzel">Ραμπουζέλ</string>
+    <string name="snow_white">Χιονάτη</string>
+    <string name="the_3_little_pigs">Τα 3 μικρά γουρουνάκια</string>
+    <string name="hansel_and_gretel">Χάνσελ και Γκρέτελ</string>
+    <string name="select_a_story">Επέλεξε μια ιστορία</string>
+</resources>

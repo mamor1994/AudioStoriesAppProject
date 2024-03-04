@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;
@@ -31,7 +32,6 @@ public class StoriesPlayerPage extends AppCompatActivity {
     DatabaseReference reference;
     StorageReference storageReference;
     MyTts myTts;
-
     String description;
 
     @Override
@@ -73,7 +73,8 @@ public class StoriesPlayerPage extends AppCompatActivity {
     }
 
     public void playStory(View view){
-        myTts.speak(description);
+            myTts.speak(description);
+
     }
 
     public void onBackButtonClick(View view) {

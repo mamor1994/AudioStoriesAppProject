@@ -13,7 +13,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:contentDescription="backbutton"
+        android:contentDescription="@string/backbutton"
         android:drawableEnd="@android:drawable/ic_menu_revert"
         android:onClick="onBackButtonClick"
         app:layout_constraintBottom_toBottomOf="parent"
