@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AudioStoriesAppProject</string>
+    <string name="loading">Caricamento</string>
+    <string name="welcome_to_this_app">Benvenuto nell\'app</string>
+    <string name="welcome">Prego</string>
+    <string name="listen_to_the_story">Ascolta la storia</string>
+    <string name="favorites">Preferiti</string>
+    <string name="menu">Menù</string>
+    <string name="see_the_stories">Guarda le storie</string>
+    <string name="backbutton">Επιστροφή</string>
+    <string name="aladin_and_the_magic_lamp">Aladino e la lampada magica</string>
+    <string name="rapunzel">Rambozel</string>
+    <string name="snow_white">Bianco come la neve</string>
+    <string name="the_3_little_pigs">I 3 porcellini</string>
+    <string name="hansel_and_gretel">Hansel e Gretel</string>
+    <string name="select_a_story">Scegli una storia</string>
+    <string name="jack">Jack e il fagiolo magico</string>
+</resources>
