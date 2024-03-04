@@ -6,6 +6,7 @@ import android.speech.tts.TextToSpeech;
 import java.util.Locale;
 
 public class MyTts {
+    private boolean ttsState = false;
     private TextToSpeech tts;
     TextToSpeech.OnInitListener  initListener= new TextToSpeech.OnInitListener() {
         @Override
@@ -21,5 +22,14 @@ public class MyTts {
 
     public void speak(String message){
         tts.speak(message,TextToSpeech.QUEUE_ADD,null,null);
+        ttsState = true;
     }
+
+    public void stop() {
+        if (tts != null) {
+            tts.stop();
+        }
+        ttsState = false;
+    }
+
 }

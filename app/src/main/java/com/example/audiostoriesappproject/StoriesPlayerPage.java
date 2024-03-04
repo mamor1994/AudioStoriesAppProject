@@ -91,6 +91,7 @@ public class StoriesPlayerPage extends AppCompatActivity {
     }
 
     public void onBackButtonClick(View view) {
+        myTts.stop();
         onBackPressed();
     }
 
