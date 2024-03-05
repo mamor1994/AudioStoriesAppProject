@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -36,10 +37,10 @@ public class FavoritesPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_favorites_page);
-        fairytale = findViewById(R.id.textView);
-        stats = findViewById(R.id.textView2);
-        favFairytale = findViewById(R.id.textView3);
-        storyImage = findViewById(R.id.imageView2);
+        fairytale = findViewById(R.id.textFairytalesData);
+        stats = findViewById(R.id.textViewsData);
+        favFairytale = findViewById(R.id.textFavorites);
+        storyImage = findViewById(R.id.imageStory);
         database = FirebaseDatabase.getInstance();
         storageReference = FirebaseStorage.getInstance().getReference();
         reference = database.getReference();
@@ -86,4 +87,9 @@ public class FavoritesPage extends AppCompatActivity {
             }
         });
     }
+
+    public void onBackButtonClick(View view) {
+        onBackPressed();
+    }
+
 }

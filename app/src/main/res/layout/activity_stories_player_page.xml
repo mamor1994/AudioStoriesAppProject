@@ -84,7 +84,7 @@
         android:layout_height="wrap_content"
         android:onClick="playStory"
         android:text="@string/listen_to_the_story"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -16,4 +16,7 @@
     <string name="hansel_and_gretel">Hansel e Gretel</string>
     <string name="select_a_story">Scegli una storia</string>
     <string name="jack">Jack e il fagiolo magico</string>
+    <string name="views">Visualizzazioni</string>
+    <string name="statistics">Statistiche</string>
+    <string name="fairytales">Fiabe</string>
 </resources>
