@@ -101,6 +101,9 @@ public class ViewStoriesPage extends AppCompatActivity {
             intent.putExtra("mykey1","Hansel");
         } else if (recognizedText.contains("Jack")){
             intent.putExtra("mykey1","Jack");
+        } else {
+            showMessage("Error", "Please choose an existing story from the options");
+            return;
         }
         startActivity(intent);
     }
