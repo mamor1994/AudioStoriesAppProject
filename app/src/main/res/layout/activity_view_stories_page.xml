@@ -30,7 +30,7 @@
         android:layout_width="146dp"
         android:layout_height="135dp"
         android:foreground="@drawable/aladin"
-        android:onClick="goAladin"
+        android:onClick="goAladdin"
         android:text="@string/aladin_and_the_magic_lamp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -207,5 +207,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.987" />
+
+    <Button
+        android:id="@+id/recordButton"
+        android:layout_width="61dp"
+        android:layout_height="52dp"
+        android:drawableTop="@android:drawable/ic_btn_speak_now"
+        android:onClick="recordVoice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toEndOf="@+id/backButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
